@@ -1,0 +1,65 @@
+{
+  "name": "cssformatcompact",
+  "displayName": "cssFormatCompact",
+  "description": "cssFormatCompactExpand,两种css格式化方式，css样式每个样式一行或者每个属性单独一行,保留注释。",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.39.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "keywords": [
+      "css,format,compact,expand"
+  ],
+  "publisher": "zhidong",
+  "activationEvents": [
+    "onCommand:extension.cssFormatCompact",
+    "onCommand:extension.cssFormatCompactExpand"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension.cssFormatCompact",
+        "title": "cssFormatCompact-样式单独一行"
+      },
+      {
+        "command": "extension.cssFormatCompactExpand",
+        "title": "cssFormatCompactExpand-样式和属性单独一行"
+      }
+  ],
+	"menus": {
+		"editor/context": [
+		  {
+			"when": "resourceLangId == css",
+			"command": "extension.cssFormatCompact",
+			"group": "navigation"
+		  },{
+        "when": "resourceLangId == css",
+        "command": "extension.cssFormatCompactExpand",
+        "group": "navigation"
+        }
+		]
+	  }
+  },
+  
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile",
+    "test": "node ./out/test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/glob": "^7.1.1",
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^12.11.7",
+    "@types/vscode": "^1.39.0",
+    "glob": "^7.1.5",
+    "mocha": "^6.2.2",
+    "typescript": "^3.6.4",
+    "tslint": "^5.20.0",
+    "vscode-test": "^1.2.2"
+  }
+}
