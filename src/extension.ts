@@ -87,6 +87,8 @@ function activate(context: vscode.ExtensionContext) {
 			str = str.replace(/,[\d\s\.\#\+>~:]*\{/ig, '{')	// remove invalid selectors without \w
 			str = str.replace(/([;,])$1+/ig, '$1')			// remove repeated ;,
 			str = str.replace(/,\s*/ig, ', ')			// add space after ,
+			str = str.replace(/([A-Za-z-](?:\+_?)?):([^;\{]+[;\}])/ig, '$1: $2')	// add space after properties' :
+			str = str.replace(/\s*!important/ig, ' !important')			// add space before !important
 			// Process action rules
 			str = this.actFuns(action, str);
 			// Fix comments

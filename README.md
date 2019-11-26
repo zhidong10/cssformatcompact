@@ -1,7 +1,8 @@
 # cssformatcompact README
-这是一款vscode的css的样式格式化插件，支持2中风格：
+这是一款vscode的css的样式格式化插件，支持2种风格：
 按样式名合并试和展开试
-This is a CSS style formatting plug-in of vscode, which supports 2 styles:
+
+This is a CSS style formatting plug-in of vscode, which supports two styles:
 Merge and expand tests by style name
 
 ![Features](https://raw.githubusercontent.com/zhidong10/cssformatcompact/master/img/icon.jpg)
@@ -30,8 +31,10 @@ Do vscode plug-in for the first time, welcome to feedback
 [https://github.com/zhidong10/cssformatcompact](https://github.com/zhidong10/cssformatcompact)
 
 ## 项目版本
-### 1.0.0
-
+### 0.0.1
+第一版
+### 0.0.2
+冒号属性后面增加空格
 -----------------------------------------------------------------------------------------------------------
 
 ## Working with Markdown

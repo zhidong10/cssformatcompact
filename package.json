@@ -2,7 +2,7 @@
   "name": "cssformatcompact",
   "displayName": "cssFormatCompact",
   "description": "cssFormatCompactExpand,两种css格式化方式，css样式每个样式一行或者每个属性单独一行,保留注释。",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.39.0"
   },
