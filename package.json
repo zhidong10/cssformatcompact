@@ -9,6 +9,7 @@
   "categories": [
     "Other"
   ],
+  "icon": "img/icon.jpg",
   "keywords": [
       "css,format,compact,expand"
   ],
@@ -61,5 +62,10 @@
     "typescript": "^3.6.4",
     "tslint": "^5.20.0",
     "vscode-test": "^1.2.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhidong10/cssformatcompact"
+  },
+  "homepage": "https://github.com/zhidong10/cssformatcompact/blob/master/README.md"
 }
