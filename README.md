@@ -20,9 +20,7 @@ Two formats of CSS can be implemented, one is to format the name and attribute o
 > Tip: 支持选中后再格式化哦 Support formatting after selecting
 
 
-## Known Issues
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
 
 ## Release Notes 发行说明
 头一次做vscode插件，欢迎反馈
@@ -39,10 +37,9 @@ Do vscode plug-in for the first time, welcome to feedback
 修改描述信息
 -----------------------------------------------------------------------------------------------------------
 
-## Working with Markdown
+## 其他 Ohter
 没有做快捷键的设置，容易跟其他快捷键搞冲突，
 想使用快捷键，可以使用vscode自带的`Ctrl+Shift+p`，搜索css一般可以看到提示命令
-
 
 There is no shortcut key setting, which is easy to conflict with other shortcut keys,
 If you want to use shortcut keys, you can use the 'Ctrl + Shift + p' provided by vscode. You can usually see prompt commands when searching CSS
