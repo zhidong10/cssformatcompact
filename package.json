@@ -1,8 +1,8 @@
 {
   "name": "cssformatcompact",
   "displayName": "cssFormatCompact",
-  "description": "这是一款vscode的css的样式格式化插件，支持2种风格：  按样式名合并试和展开试。This is a CSS style formatting plug-in of vscode, which supports two styles:  Merge and expand tests by style name",
-  "version": "0.0.3",
+  "description": "css样式格式化，单行和多行：按样式名单行和多行模式。CSS style formatting, single line and multi line:  List rows and multiline patterns by style",
+  "version": "0.0.4",
   "engines": {
     "vscode": "^1.39.0"
   },
